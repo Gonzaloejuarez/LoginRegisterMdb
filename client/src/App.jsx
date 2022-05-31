@@ -4,14 +4,16 @@ import Home from "./components/Home";
 import Register from "./components/Register";
 import Login from "./components/Login";
 
+import styles from './App.module.scss'
+
 export const App = () =>  {
   return (
-    <div className="App">
+    <div className={styles.container}>
     <Routes>
       <Route exact path="/" element={<Login />}/>
       <Route path="/login" element={<Login />} ></Route>
       <Route path="/register" element={<Register />}/>
-      <Route path="/inicio" element={<Home />}></Route>
+      <Route path="/inicio/:id" element={<Home />}></Route>
       <Route></Route>
     </Routes>
     </div>
