@@ -58,7 +58,7 @@ return(
     <div className={styles.todoContainer}>
      <div className={styles.containerRegister}>
         <h1>Bienvenido</h1>
-        <h3>Registrate</h3>
+        <h3>Inicia sesion</h3>
         <form action="" onSubmit={(e) => handleSubmit(e)}>
             <div className={styles.inputContainer}>
                 <label htmlFor="correo">Correo</label>
