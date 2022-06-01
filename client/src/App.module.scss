@@ -3,6 +3,7 @@
     margin : 0;
     font-family: Poppins;
     outline: none;
+    
 }
 
 .container{
@@ -10,9 +11,10 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    background-color: rgb(235, 235, 235);
+    justify-content: center;
+    background-color: rgb(181, 225, 250);
 }
 
 ::selection{
-    background-color: rgb(194, 97, 84) ;
+    background-color: rgb(96, 127, 138) ;
 }
